@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedTaskFlattener", "TaskAlgorithms\NestedTaskFlattener.csproj", "{1352A92B-FF54-4217-9AE6-22472C3D5595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskDependencyAnalyzer", "TaskDependencyAnalyzer\TaskDependencyAnalyzer.csproj", "{E48B3438-A295-4FAA-9FB9-BDCB28EB2949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskAlgorithmsTests", "TaskAlgorithmsTests\TaskAlgorithmsTests.csproj", "{C79140F8-76B8-4D3B-A89C-780ED5EB9A3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler", "Scheduler\Scheduler\Scheduler.csproj", "{A39F02DA-13AF-488B-A7FB-CDB21E737224}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1352A92B-FF54-4217-9AE6-22472C3D5595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1352A92B-FF54-4217-9AE6-22472C3D5595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1352A92B-FF54-4217-9AE6-22472C3D5595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1352A92B-FF54-4217-9AE6-22472C3D5595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E48B3438-A295-4FAA-9FB9-BDCB28EB2949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E48B3438-A295-4FAA-9FB9-BDCB28EB2949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E48B3438-A295-4FAA-9FB9-BDCB28EB2949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E48B3438-A295-4FAA-9FB9-BDCB28EB2949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C79140F8-76B8-4D3B-A89C-780ED5EB9A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C79140F8-76B8-4D3B-A89C-780ED5EB9A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C79140F8-76B8-4D3B-A89C-780ED5EB9A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C79140F8-76B8-4D3B-A89C-780ED5EB9A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A39F02DA-13AF-488B-A7FB-CDB21E737224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A39F02DA-13AF-488B-A7FB-CDB21E737224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A39F02DA-13AF-488B-A7FB-CDB21E737224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A39F02DA-13AF-488B-A7FB-CDB21E737224}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC6634BA-9865-4021-9A76-8B595CDD1163}
+	EndGlobalSection
+EndGlobal
